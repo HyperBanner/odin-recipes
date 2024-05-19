@@ -30,6 +30,7 @@ a {
 .topnav {
   background-color: rgb(228, 203, 153);
   border-bottom: 5px solid burlywood;
+  font-size: 0px;
 }
 
 .topnav a {
@@ -40,6 +41,7 @@ a {
   text-decoration: none;
   font-size: 17px;
   white-space: inherit;
+  font-size: 16px;
 }
 
 .topnav a:hover {
