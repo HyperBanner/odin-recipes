@@ -9,10 +9,12 @@ h1 {
 
 h2 {
     color: #e98d04;
+    margin-bottom: 10px;
 }
 
 p {
     color: antiquewhite;
+    font-size: 24px;
 }
 
 ul>li {
@@ -24,6 +26,7 @@ ul>li {
 
 ol>li {
     color: antiquewhite;
+    font-size: 24px;
 }
 
 a {
