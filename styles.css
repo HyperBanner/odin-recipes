@@ -1,11 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f8b858;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 h1 {
   text-align: center;
   color: #e98d04;
   font-family: "Courier New", Courier, monospace;
+  margin: 10px 0;
 }
 
 h2 {
@@ -38,4 +48,24 @@ a {
   text-decoration: none;
   color: #e98d04;
   font-family: "Courier New", Courier, monospace;
+}
+
+.recipes {
+  text-align: center;
+  padding: 10;
+  height: 50%;
+  margin: 10% 0;
+}
+
+.recipe {
+  width: 300px;
+  height: 100%;
+  display: inline-block;
+  padding: 0;
+  margin: 0 5%;
+  background-color: #aa6908;
+}
+
+.recipe-link {
+  height: 100%;
 }
